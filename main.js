@@ -2,10 +2,20 @@
  * Your code here!
  ******************************************************************************/
 
+let value= getInput(0)
 
 
 
 
+const converter= function (num){
+
+num = (getInput(0) * (9/5)) + 32
+
+ return console.log(getInput(0) +' Degrees Celsius is ',num + ' Degrees Fahrenheit' )
+ 
+}
+
+ converter(value)
 /*******************************************************************************
   The below helper function will return an argument the user used when launching
   the app.
