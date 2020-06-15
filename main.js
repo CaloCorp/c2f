@@ -11,7 +11,7 @@ const converter= function (num){
 
 num = (getInput(0) * (9/5)) + 32
 
- return console.log(getInput(0) +' Degrees Celsius is ',num + ' Degrees Fahrenheit' )
+ return console.log(getInput(0) +' Degrees Celsius is',num + 'Degrees Fahrenheit' )
  
 }
 
